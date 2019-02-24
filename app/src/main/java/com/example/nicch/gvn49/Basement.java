@@ -175,7 +175,6 @@ public class Basement extends AppCompatActivity {
                 Toast.makeText(Basement.this, "Link succesfully Copied to Clipboard", Toast.LENGTH_LONG).show();
             }
             catch (Exception ex){
-                //Toast.makeText(Basement.this, "Error Generated-> "+ex.getMessage(), Toast.LENGTH_LONG).show();
                 Toast.makeText(Basement.this, "Link No Longer Works", Toast.LENGTH_SHORT).show();
             }
             return true;
