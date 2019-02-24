@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="146dp"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="146dp">
+
+        <RelativeLayout
+            android:id="@+id/belg"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:background="#df9c9c"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ImLab"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@android:drawable/ic_menu_mylocation" />
+
+            <TextView
+                android:id="@+id/PrComm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ImLab"
+                android:layout_marginTop="20dp"
+                android:text="Comment"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/PrTt"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_toEndOf="@+id/ImLab"
+                android:layout_toRightOf="@+id/ImLab"
+                android:text="Title"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/PrLocation"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignStart="@+id/PrTt"
+                android:layout_below="@+id/PrTt"
+                android:layout_marginTop="20dp"
+                android:text="Location"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/PrSpecial"
+                android:layout_width="295dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ImLab"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/ImLab"
+                android:layout_toRightOf="@+id/ImLab"
+                android:text="Speciality"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

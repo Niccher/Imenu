@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/root/Prjs/Mad/Gvn49 (another copy)/app/build/intermediates/res/merged/debug/raw/zxing_beep.ogg",
+        "source": "/root/Prjs/Mad/Gvn49 (another copy)/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.2.0/res/raw/zxing_beep.ogg"
+    },
+    {
+        "merged": "/media/niccher/Bookies/Ap/pRJS/Final Imenu/app/build/intermediates/res/merged/debug/raw/zxing_beep.ogg",
+        "source": "/media/niccher/Bookies/Ap/pRJS/Final Imenu/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.2.0/res/raw/zxing_beep.ogg"
+    },
+    {
+        "merged": "/home/niccher/Andr/Final Imenu/app/build/intermediates/res/merged/debug/raw/zxing_beep.ogg",
+        "source": "/home/niccher/Andr/Final Imenu/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.2.0/res/raw/zxing_beep.ogg"
+    }
+]
